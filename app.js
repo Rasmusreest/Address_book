@@ -1,33 +1,42 @@
 // define variables
-const firstName = document.querySelector('#first-name');
-const lastName = document.querySelector('#last-name');
+// contact data
+const firstName = document.querySelector('#first_name');
+const lastName = document.querySelector('#last_name');
 const city = document.querySelector('#city');
-const postcode = document.querySelector('#postcode');
+const street = document.querySelector('#street');
+const postCode = document.querySelector('#postcode');
 const phone = document.querySelector('#phone');
+const contact = [firstName, lastName, city, street, postCode, phone];
 
-//app data
+// app data
 const form = document.querySelector('#contact-form');
-const contacts-table = document.querySelector('');
+const contacts = document.querySelector('#contacts-table');
+
 // define event listeners
-//add contact to table -submit button
+// add contact to table - submit button
 form.addEventListener('submit', addContact);
 
 // project functions
-//add contact
-function addContact(e){
-    if (firstName.value === '' || lastName.value === '' || city.value === '' || street.value === '' || postcode.value === '' || phone.value === '') {
+// addContact
+function addContact(e) {
+    if (firstName.value === '') {
         alert("Add new contact data!")
     } else {
-
+        console.log("Create contact");
         // create tr
         const tr = document.createElement('tr');
-        //create td
-        const td = document.createElement('td');
-        // add firstname value to td
-        td.appendChild(document.createTextNode(firstName.value));
-        // append td to tr
-        tr.appendChild(td);
-        // append  tr tp table
+
+        contact.forEach(function (contactData) {
+            // create td
+            const td = document.createElement('td');
+            // add contact value to td
+            td.appendChild(document.createTextNode(contactData.value));
+            // append td to tr
+            tr.appendChild(td);
+        });
+        // append tr to table
         contacts.appendChild(tr);
+        console.log(contacts);
+        e.preventDefault();
     }
 }
