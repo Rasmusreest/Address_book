@@ -6,9 +6,9 @@
 }
 
 .problem {
-    background: red;
+    background: darkred;
 }
 
 .ok {
-    background: green;
+    background: lightgreen;
 }
