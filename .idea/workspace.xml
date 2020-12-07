@@ -19,7 +19,12 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5b729e70-d444-4711-8ea2-7fd6f246918c" name="Default Changelist" comment="Add contact to HTML table by person object and user interface object" />
+    <list default="true" id="5b729e70-d444-4711-8ea2-7fd6f246918c" name="Default Changelist" comment="Add contact to HTML table by person object and user interface object">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LS.js" beforeDir="false" afterPath="$PROJECT_DIR$/LS.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UI.js" beforeDir="false" afterPath="$PROJECT_DIR$/UI.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -61,6 +66,8 @@
       <workItem from="1606212640970" duration="7568000" />
       <workItem from="1606738076892" duration="1449000" />
       <workItem from="1606830799927" duration="609000" />
+      <workItem from="1606919966396" duration="566000" />
+      <workItem from="1607336347071" duration="1104000" />
     </task>
     <task id="LOCAL-00001" summary="AddressBook App with table">
       <created>1606117178757</created>
@@ -97,7 +104,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606739259714</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Finished addressbook">
+      <created>1606920205072</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1606920205072</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -119,12 +133,14 @@
     <MESSAGE value="AddressBook App with table" />
     <MESSAGE value="Add contact to HTML table by person object and user interface object" />
     <MESSAGE value="Working clear button" />
-    <option name="LAST_COMMIT_MESSAGE" value="Working clear button" />
+    <MESSAGE value="Finished addressbook" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finished addressbook" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="72" y="303" key="Vcs.Push.Dialog.v2" timestamp="1606218518207">
-      <screen x="0" y="0" width="1920" height="1160" />
+    <state x="38" y="168" key="Vcs.Push.Dialog.v2" timestamp="1606920213447">
+      <screen x="0" y="0" width="1024" height="728" />
     </state>
+    <state x="38" y="168" key="Vcs.Push.Dialog.v2/0.0.1024.728@0.0.1024.728" timestamp="1606920213447" />
     <state x="72" y="303" key="Vcs.Push.Dialog.v2/0.0.1920.1160@0.0.1920.1160" timestamp="1606218518207" />
   </component>
 </project>

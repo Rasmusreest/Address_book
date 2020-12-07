@@ -43,6 +43,8 @@ function addContact(e) {
         ui.alertMessage("added contact to address book", "ok");
         person.firstName.value = '';
         e.preventDefault();
+        // clear form inputs
+        ui.clearInputs();
     }
 }
 

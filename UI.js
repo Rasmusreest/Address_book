@@ -40,4 +40,13 @@ class UI {
         personContact.remove();
     }
 
+    clearInputs(){
+        const firstName = document.querySelector('#first_name').value = '';
+        const lastName = document.querySelector('#last_name').value = '';
+        const city = document.querySelector('#city').value = '';
+        const street = document.querySelector('#street').value = '';
+        const postCode = document.querySelector('#postcode').value = '';
+        const phone = document.querySelector('#phone').value = '';
+
+    }
 }
